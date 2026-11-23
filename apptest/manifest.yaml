@@ -1,0 +1,11 @@
+metadata:
+  vendorID: "marquardt"
+  urcapID: "apptest"
+  vendorName: "Marquardt"
+  urcapName: "Apptest"
+  version: 1.0.0
+artifacts:
+  webArchives:
+  - id: "apptest-frontend"
+    folder: "apptest-frontend"
+  

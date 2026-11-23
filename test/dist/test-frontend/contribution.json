@@ -1,0 +1,21 @@
+{
+  "applicationNodes": [],
+  "programNodes": [],
+  "smartSkills": [],
+  "sidebarItems": [ 
+    {
+      "name": "marquardt-test-test",
+      "iconURI": "assets/icons/test.svg",
+      "presenterURI": "main.js",
+      "componentTagName": "marquardt-test-test",
+      "behaviorURI": "test.worker.js",
+      "translationPath": "assets/i18n/"
+    }],
+  "operatorScreens": [ 
+    {
+      "translationPath": "assets/i18n/",
+      "behaviorURI": "test1.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "marquardt-test-test1"
+    }]
+}

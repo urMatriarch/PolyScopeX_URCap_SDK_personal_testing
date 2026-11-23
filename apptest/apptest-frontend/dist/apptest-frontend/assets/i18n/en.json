@@ -1,0 +1,10 @@
+{
+        "application": {
+          "nodes": {
+            "marquardt-apptest-apptest": {
+              "title": "Apptest",
+              "supportiveText": "Apptest - Supportive Text"
+              }
+        }
+    }
+}

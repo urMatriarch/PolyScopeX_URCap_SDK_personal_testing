@@ -1,0 +1,17 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_src_path: urcap-generator/templates
+answersOk: true
+applicationNodes: apptest
+frontendType: angular
+hasApplicationNode: true
+hasOperatorScreen: false
+hasProgramNode: false
+hasSidebar: false
+hasSmartSkill: false
+includeCustomRosTypes: false
+includeDocker: false
+includeFrontend: true
+urcapId: apptest
+urcapName: Apptest
+vendorId: marquardt
+vendorName: Marquardt

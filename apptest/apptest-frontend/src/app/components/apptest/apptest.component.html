@@ -1,0 +1,69 @@
+<div *ngIf="applicationNode" class="component">
+    <div class="section">
+        <div class="main">
+            <h2>Selected Position:</h2>
+            <ur-dropdown 
+                [numberOfOptionsVisible]="6" 
+                [options]="variableNames" 
+                [label]="'Position Name'" 
+                [labelOutside]="true" 
+                [placeholder]="'- Select -'" 
+                (selectionChange)="selectNewVariable($event)"
+                >
+            </ur-dropdown>
+            <div class="results">
+                <div class="val">
+                    <div class="characteristic"><ur-label [label]="'X: '"></ur-label></div>
+                    <div class="value"><ur-label [label]="selectedPositionData[0]"></ur-label></div>
+                </div>
+                <div class="val">
+                    <div class="characteristic"><ur-label [label]="'Y: '"></ur-label></div>
+                    <div class="value"><ur-label [label]="selectedPositionData[1]"></ur-label></div>
+                </div>
+                <div class="val">
+                    <div class="characteristic"><ur-label [label]="'Z: '"></ur-label></div>
+                    <div class="value"><ur-label [label]="selectedPositionData[2]"></ur-label></div>
+                </div>
+                <div class="val">
+                    <div class="characteristic"><ur-label [label]="'W: '"></ur-label></div>
+                    <div class="value"><ur-label [label]="selectedPositionData[3]"></ur-label></div>
+                </div>
+                <div class="val">
+                    <div class="characteristic"><ur-label [label]="'R: '"></ur-label></div>
+                    <div class="value"><ur-label [label]="selectedPositionData[4]"></ur-label></div>
+                </div>
+                <div class="val">
+                    <div class="characteristic"><ur-label [label]="'T: '"></ur-label></div>
+                    <div class="value"><ur-label [label]="selectedPositionData[5]"></ur-label></div>
+                </div>
+            </div>
+            <h2>Current Position:</h2>
+            <div class="results">
+                <div class="val">
+                    <div class="characteristic"><p>X: </p></div>
+                    <div class="value"><p>100</p></div>
+                </div>
+                <div class="val">
+                    <div class="characteristic"><p>Y: </p></div>
+                    <div class="value"><p>100</p></div>
+                </div>
+                <div class="val">
+                    <div class="characteristic"><p>Z: </p></div>
+                    <div class="value"><p>100</p></div>
+                </div>
+                <div class="val">
+                    <div class="characteristic"><p>W: </p></div>
+                    <div class="value"><p>100</p></div>
+                </div>
+                <div class="val">
+                    <div class="characteristic"><p>R: </p></div>
+                    <div class="value"><p>100</p></div>
+                </div>
+                <div class="val">
+                    <div class="characteristic"><p>T: </p></div>
+                    <div class="value"><p>100</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

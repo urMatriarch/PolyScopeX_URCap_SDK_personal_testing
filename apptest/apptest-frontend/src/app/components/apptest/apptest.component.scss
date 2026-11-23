@@ -1,0 +1,37 @@
+@import '../../../styles.scss';
+
+.component {
+  .section {
+    padding: 0.5rem 0.5rem 1rem;
+    max-width: 50%;
+    margin: 0 auto;
+  }
+}
+.main{
+    background-color: beige;
+    border-radius: 5px;
+    padding: 10px;
+}
+.results{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.val{
+    display: flex;
+    margin: 5px;
+    text-align: center;
+}
+.characteristic{
+    padding: 2px;
+}
+.value{
+    background-color: white;
+    border: 1px solid black;
+    margin: 0px;
+    margin-left: 3px;
+    padding: 2px;
+}
+
+.ur-label{
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,14 @@
+{
+  "applicationNodes": [ 
+    {
+      "translationPath": "assets/i18n/",
+      "behaviorURI": "apptest.worker.js",
+      "presenterURI": "main.js",
+      "componentTagName": "marquardt-apptest-apptest"
+    }
+    ],
+  "programNodes": [],
+  "smartSkills": [],
+  "sidebarItems": [],
+  "operatorScreens": []
+}
